@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+/* main */
+main {
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.lesson {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.lesson-item {
+  width: 300px;
+  padding: 10px;
+  margin: 30px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.lesson-number {
+  width: 45px;
+  height: 27px;
+  color: white;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.lesson-image1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.lesson-image2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.lesson-image3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* lesson-text-heading用のcss */
+.lesson-text-heading {
+  margin: 15px 0 5px 0;
+}
+/* footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+  main {
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .lesson {
+    display: block;
+  }
+
+  .lesson-item {
+    width: 90vw;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
