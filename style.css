@@ -94,4 +94,22 @@ footer {
     padding: 10px;
     margin-bottom: 20px;
   }
+
+  .lesson-image1 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .lesson-image2 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .lesson-image3 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+  }
 }
