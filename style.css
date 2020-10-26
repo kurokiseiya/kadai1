@@ -14,19 +14,20 @@ header {
 /* main */
 main {
   justify-content: center;
-  padding: 50px 0;
 }
 
 .lesson {
   width: 960px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lesson-item {
   width: 300px;
   padding: 10px;
-  margin: 30px;
+  margin: 50px 15px;
   background-color: #eeeeee;
   position: relative;
 }
@@ -38,9 +39,9 @@ main {
   background-color: #ff9a4b;
   position: absolute;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
 }
 
 .lesson-image1 {
@@ -81,18 +82,19 @@ footer {
 /* レスポンシブデザイン */
 @media screen and (max-width: 768px) {
   main {
+    margin: 50px 0;
     justify-content: center;
-    padding: 50px 0;
   }
 
   .lesson {
     display: block;
+    width: 90vw;
   }
 
   .lesson-item {
     width: 90vw;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
   }
 
   .lesson-image1 {
